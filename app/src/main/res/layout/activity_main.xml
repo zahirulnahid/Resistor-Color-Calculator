@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    android:scaleType="centerCrop"
+    android:tileMode="disabled"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/titleHead"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/breadboard"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Resistor Calculator"
+            android:textColor="@color/brown"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bands4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleHead"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/resistorbutton1"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="2"
+        android:text="4 Bands Resistor"
+        android:textColor="@color/white"
+        android:textColorHighlight="#651FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/bands5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bands4"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/resistorbutton2"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:text="5 Bands Resistor"
+        android:textColor="@color/white"
+        android:textColorHighlight="#651FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/bands6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bands5"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/resistorbutton3"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:text="6 Bands Resistor"
+        android:textColor="@color/white"
+        android:textColorHighlight="#651FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/ResistanceCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bands6"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/resistorbutton3"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:text="Resistance Calculate"
+        android:textColor="@color/white"
+        android:textColorHighlight="#651FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/aboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ResistanceCalculate"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/resistorbutton3"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:text="About Me"
+        android:textColor="@color/white"
+        android:textColorHighlight="#651FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+    </RelativeLayout>
+</ScrollView>

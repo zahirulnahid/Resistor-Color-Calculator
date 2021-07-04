@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resistorcalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/resistorbutton3"
+        android:label="Resistor Calculator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ResistorCalculator">
+        <activity android:name=".resistance"></activity>
+        <activity android:name=".aboutMe" />
+        <activity android:name=".band6Resistor" />
+        <activity android:name=".bands5Resistor" />
+        <activity android:name=".bandsResistor" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
